@@ -1,8 +1,8 @@
 # Description: Interactive PST export of Exchange 2012 mailboxes -wdb 15jun12
 # status: prompts tested, rights assignment tested, mailbox export untested
-ECHO "INS Exchange 2010 Exmerge "
+ECHO "Exchange 2010 Exmerge "
 echo "Did you give yourself the correct roles?"
-echo "EG ""New-ManagementRoleAssignment -Role ""Mailbox Import Export"" -User INS\wbeam"""
+echo "EG ""New-ManagementRoleAssignment -Role ""Mailbox Import Export"" -User coconono"""
 do
 {
     #get the mailbox name
